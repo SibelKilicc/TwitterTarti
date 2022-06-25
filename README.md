@@ -28,6 +28,8 @@ HX711 ile yük sensöründeki direnç değişikliklerini okuyabilecek ve bize is
 
 <img src="https://github.com/SibelKilicc/TwitterTarti/blob/main/Resim3.jpg" width="auto">
 
+*HX711.py kod dosyasında modülün programlaması bulunmaktadır. Kod satırları dosya içinde açıklanmıştır.
+
 ### DONANIM BAĞLANTILARI
 #### HX711 - Yük Sensörü Bağlantısı
 Yük sensöründe bulunan kabloların renklerine göre Hx711 ile aşağıdaki şekilde bağlantısı sağlanır.
