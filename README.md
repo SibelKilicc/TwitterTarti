@@ -92,3 +92,33 @@ sudo python example.py
 <img src="https://github.com/SibelKilicc/TwitterTarti/blob/main/Resim12.png" width="auto">
 
 **Tebrikler! Proje istenilen şekilde çalışıyor**
+
+## Twitter İle İletişim
+Twitter ile haberleşmek için  kullanıcıların internet özellikli cihazlarla iletişim kurmasını sağlayan açık kaynaklı bir yazılım olan ThinkSpeak kullanılmıştır. ThinkSpeak hem cihazlara hem de sosyal ağ web sitelerine bir API sağlayarak veri erişimini, verilerin alınmasını ve günlüğe kaydedilmesini kolaylaştırır.
+İlk olarak bir ThinkSpeak hesabı oluşturuyoruz. Daha sonra ana ekranda Apps kısmından ThinkTweet i seçiyoruz.
+
+<img src="https://github.com/SibelKilicc/TwitterTarti/blob/main/Ekran%20Görüntüsü%20(519).png" width="auto">
+
+Açılan pencereden Link Twitter Account diyerek işlem yapmak istediğimiz Twitter hesabı ile bağlantı kuruyoruz ve ihtiyacımız olan API Key 'i oluşturuyoruz.
+
+<img src="https://github.com/SibelKilicc/TwitterTarti/blob/main/Ekran%20Görüntüsü%20(520).png" width="auto">
+
+Kod kısmı için kurmamız gereken kütüphaneleri kuruyoruz.
+```sh
+pip install urllib3
+veya
+sudo apt-get install urllib2
+pip3 install ThinkSpeak
+```
+Kurulumlar tamamlandıktan sonra example.py kod dosyasının içine aşağıdaki kod satırlarını ekliyoruz.
+
+//import urllib,urllib2
+//BASE_URL='https://thingspeak.com/apps/thingtweets'
+//KEY ='WS29MT2P0H2WOHEC'
+status değişkeni ile ileteceğimiz mesajı belirliyoruz
+//status= 'Olculen agirlik=' + val
+
+ Kodların ekleneceği kısımlar example.py dosyasından görülebilir.
+ 
+ <img src="https://github.com/SibelKilicc/TwitterTarti/blob/main/Tweet.PNG" width="auto">
+ 
