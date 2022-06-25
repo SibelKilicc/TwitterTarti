@@ -79,6 +79,7 @@ Terminalde kod dosyamızı açarak elde ettiğimiz referans değerini ilgili kı
 sudo nano example.py
 ```
 Kod dosyasında referans kod satırı yorum satırından çıkarılarak elde edilen değer yazılır.
+
 #hx.set_reference_unit(862)
 
 Ctrl+ O yaparak değişikliği kaydediyoruz ve ctrl+x ile kod dosyasından çıkıyoruz.
