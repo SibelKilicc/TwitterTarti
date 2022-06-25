@@ -11,11 +11,11 @@ Twitter tartı ile ağırlığını ölçtüğünüz ürünlerin Tweet atılarak
 - İstenilen ürün grubunda kullanılabilir
 
 ### PROJE İÇİN GEREKLİ MALZEMELER
--Raspberry Pi 4B Model
--Yük Sensörü
--HX711 
--Breadboard
--Jumper Kablo
+- Raspberry Pi 4B Model
+- Yük Sensörü
+- HX711 
+- Breadboard
+- Jumper Kablo
 #### Yük Sensörü
 Yük sensöründe 4 adet gerilme ölçer birbirlerine wheatstone köprüsü ile bağlantılıdır.
 Gerilme ölçer telin uzunluğu değişince direnci değişen bir elemandır.Bu özellikten faydalanarak yük sensörünün bir ucu sabitlenip diğer ucuna yük konudulduğunda oluşan esnemeden faydalanarak ölçüm gerçekleşiyor.
