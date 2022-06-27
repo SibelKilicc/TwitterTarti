@@ -23,7 +23,7 @@ Gerilme ölçer telin uzunluğu değişince direnci değişen bir elemandır.Bu 
 <img src="https://github.com/SibelKilicc/TwitterTarti/blob/main/Resim1.png" width="auto">
 
 #### HX711
-Yük hücresini kuvvetlendirmek ve ADC moduülü olarak kullanılır.
+Yük hücresini kuvvetlendirmek ve ADC moduülü olarak kullanılır.Dosyalar kısmında yer alan HX711 datasheet dosyasından ayrıntılı olarak inceleyebilirsiniz.
 HX711 ile yük sensöründeki direnç değişikliklerini okuyabilecek ve bize isteğimiz verileri verecektir.
 
 <img src="https://github.com/SibelKilicc/TwitterTarti/blob/main/Resim3.jpg" width="auto">
@@ -39,7 +39,7 @@ Yük sensöründe bulunan kabloların renklerine göre Hx711 ile aşağıdaki ş
 - Beyaz: A+
 
 #### HX711 - Raspberry Pi Bağlantısı
-HX711 üzerinde bulunan VCC,GND,DT ve SCK pinleri Raspberry Pi üzerinde bulunan pinlerle aşağıdaki şekilde bağlanır. 
+HX711 üzerinde bulunan VCC,GND,DT ve SCK pinleri Raspberry Pi üzerinde bulunan pinlerle aşağıdaki şekilde bağlanır.
 
 - `VCC` -- Raspberry Pi Pin 2 (5V)
 - `GND` -- Raspberry Pi Pin 6 (GND)
