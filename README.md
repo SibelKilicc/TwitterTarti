@@ -46,7 +46,9 @@ HX711 üzerinde bulunan VCC,GND,DT ve SCK pinleri Raspberry Pi üzerinde bulunan
 - `DT`  -- Raspberry Pi Pin 29 (GPIO 5)
 - `SCK` -- Raspberry Pi Pin 31 (GPIO 6)
 
-*SCK:Serial Clock Input, HX711'in I2C ile haberleştiği için kullanılır.
+*SCK:Serial Clock Input, HX711'in I2C ile haberleştiği için kullanılır. 
+I2C işlemci ve mikrodenetleyicilere aynı veri yolu üzerinden birden çok çevrebirimle haberleşme imkanı sağlayan seri iletişim protokolüdür. SDA(Serial Data) ve SCL(Serial Clock) olmak üzere iki hatta ihtiyaç vardır. SDA veri iletişimi için, SCL ile ise gönderen ve alan taraflar için veri senkronizasyonunu sağlar.
+
 ## YAZILIM
 
 Güncellemeler için aşağıdaki paketleri kuralım.
@@ -114,9 +116,13 @@ pip3 install ThinkSpeak
 Kurulumlar tamamlandıktan sonra example.py kod dosyasının içine aşağıdaki kod satırlarını ekliyoruz.
 
 //import urllib,urllib2
+
 //BASE_URL='https://thingspeak.com/apps/thingtweets'
+
 //KEY ='WS29MT2P0H2WOHEC'
+
 status değişkeni ile ileteceğimiz mesajı belirliyoruz
+
 //status= 'Olculen agirlik=' + val
 
  Kodların ekleneceği kısımlar example.py dosyasından görülebilir.
