@@ -1,7 +1,7 @@
 # Twitter Tartı
 
 
-Twitter tartı ile ağırlığını ölçtüğünüz ürünlerin Tweet atılarak bilgilendirilmesi yapılmaktadır.
+Twitter tartı ile ağırlığını ölçtüğünüz ürünlerin Tweet atılarak bilgilendirilmesi yapılmaktadır. Gerçekleştirilecek sistem ile ağırlık bilgileri otomatik olarak alınabilecek böylece doğru çözüme hızla ulaşılacaktır.
 
 
  ## ÖZELLİKLER
